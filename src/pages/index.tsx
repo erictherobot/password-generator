@@ -15,7 +15,7 @@ const Home: React.FC = () => {
       </Head>
       <Header />
 
-      <div className="-mt-10 container mx-auto flex items-center justify-center">
+      <div className="-mt-10 container mx-auto min-h-screen flex items-center justify-center">
         <PasswordGenerator />
       </div>
     </>
